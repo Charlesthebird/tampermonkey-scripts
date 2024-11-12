@@ -15,7 +15,9 @@
 
   async function main() {
     console.log("[TM] Fetching script...");
-    const res = await fetch();
+    const res = await fetch(
+      "https://raw.githubusercontent.com/Charlesthebird/tampermonkey-scripts/refs/heads/main/scripts/github-script.js"
+    );
     console.log("[TM] Request completed.");
     const text = await res.text();
     console.log("[TM] Loaded script:", text);
