@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Copy Issue URL Button
+// @name         Github Controls
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
